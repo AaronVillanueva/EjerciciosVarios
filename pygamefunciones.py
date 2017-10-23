@@ -13,7 +13,7 @@ def dibujarEjes(ventana):
     pygame.draw.line(ventana, AZUL, (ANCHO // 2, 0), (ANCHO // 2, ALTO), 2)
 
 def dibujarCoseno(ventana):
-    for angulo in range(0,360):
+    for angulo in range(-(ANCHO//2),ANCHO//2):
         angRad= math.radians(angulo)
         y= math.cos(angRad)
         y=int(100*y)
