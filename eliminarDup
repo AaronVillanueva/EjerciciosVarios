@@ -1,0 +1,9 @@
+def eliminarduplicados(lista):
+    final=[]
+    if lista in final:
+        pass
+    else:
+        final.append(lista)
+    print (final)
+
+eliminarduplicados([5,5,6,7,8,8])
